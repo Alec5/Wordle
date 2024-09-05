@@ -1,0 +1,63 @@
+body
+{
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  user-select: none;
+}
+
+td
+{
+  text-align: center;
+}
+
+#main
+{
+  position: relative;
+  top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+
+#gameboard
+{
+  border-spacing: 7px;
+  border-collapse: separate;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.space
+{
+  border: 2px solid #bbbbbb;
+  width: 55px;
+  height: 60px;
+}
+
+#keyboard
+{
+  border-spacing: 7px;
+  border-collapse: separate;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#keyrow1
+{
+  position: relative;
+  left: 22.5px;
+}
+
+#keyrow2
+{
+  position: relative;
+  left: 71.5px;
+}
+
+.key
+{
+  border-radius: 7px;
+  width: 40px;
+  height: 60px;
+  background-color: #d3d6da;
+}
